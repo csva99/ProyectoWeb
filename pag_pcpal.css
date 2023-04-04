@@ -1,0 +1,45 @@
+.navbar {
+    margin-bottom: 0;
+    color: rgba(15, 14, 14, 0.947);
+  }
+  
+  #Nombrebarra{
+    color: rgb(129, 98, 61);
+    margin-left: 0%;
+  }
+  #Pet{
+    color: blueviolet;
+  }
+
+  .jumbotron {
+    background-color: #99ca9d;
+    color: white;
+  }
+
+  .card {
+    margin-bottom: 5px;
+  }
+  
+  .card-img-top {
+    height: 250px;
+  }
+  
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  #logo-facebook{
+    width: 20px;
+    height: 20px;
+  }
+  
+  #logo-correo{
+    width: 20px;
+    height: 20px;
+  }
+
+  #logo-insta{
+    width: 20px;
+    height: 20px;
+  }
