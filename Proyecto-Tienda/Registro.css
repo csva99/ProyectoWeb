@@ -1,0 +1,142 @@
+
+
+body {
+  box-sizing: border-box;
+  background-image: url(Imagenes/fondoregistro.png);
+  font-family: "lato", sans-serif;
+}
+
+
+.form {
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    margin-left: 35%;
+    margin-top: 4%;
+}
+  
+.title {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+
+  /* estilo de inputs */
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+  
+  /* letras transparentes */
+  
+::placeholder {
+    color: transparent;
+}
+
+  /* estilo de etiquetas de texto */
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.2s;
+    z-index: 0;
+}
+
+.submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+  
+.submitBtn:hover {
+    background-color: #9867C5;
+    transform: translateY(-2px);
+}
+
+.input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: purple;
+}
+
+
+.input:focus {
+    border: 2px solid purple;
+}
+
+
+.input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+.signupForm{
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+}
+
+  /*------------Diseño Responsivo------------*/
+
+@media only screen and (max-width: 768px){
+
+.box-area{
+     margin: 0 10px;
+
+  }
+  .left-box{
+     height: 100px;
+     overflow: hidden;
+  }
+  .right-box{
+     padding: 20px;
+  }
+
+}
+
+    
+  

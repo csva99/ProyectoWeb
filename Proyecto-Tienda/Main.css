@@ -1,0 +1,112 @@
+body{
+  background-color: white;
+}
+#Accesories{
+  color: white
+}
+
+#Pet{
+  color: orange;
+}
+
+
+.navbar {
+  margin-bottom: 0;
+  color: white
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 600;
+  position: relative;
+}
+
+.nav-link:after{
+  content: "";
+  width: 0;
+  height: 4px;
+  background-color: royalblue;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transition: all .5s;
+  will-change: width;
+}
+
+.nav-link:hover:after{
+  width: 100%;
+  right: 0;
+}
+
+
+.jumbotron {
+  background-color: #99ca9d;
+  color: white;
+  border: 10px;
+}
+
+.card {
+  margin-bottom: 200px;
+}
+
+
+.card-img-top {
+  height: 250px;
+}
+
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+
+.container-footer{
+  background-color: black;
+}
+
+.container-footer p{
+  color: gray;
+}
+
+.container-footer a{
+  text-decoration: none;
+  color: gray;
+  margin-top: 10px;
+}
+
+.container-footer h4{
+  color: white;
+}
+
+
+.container-footer a:hover{
+  color: white;
+  transition: 0.2s;
+}
+
+
+.container-footer .box .redSocial a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 10px;
+  background-color: navajowhite;
+  text-align: center;
+  transition: all 300ms ease;
+  border-radius: 8px;
+}
+
+.g2 small{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+
+
