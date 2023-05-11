@@ -1,0 +1,40 @@
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=4562&resolucion=2560x1440");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary a{
+    color: white !important;
+}
+#contenedor{
+    box-shadow: 2px 2px 2px 2px rgba(.2, .2, .2, 0.2);
+    width: 30%;
+    top: 20%;
+    position: absolute;
+    border-radius: 8px;
+}
+.form-control{
+    background: transparent;
+    color: black;
+}
+form{
+    padding: 50px !important;
+    background: transparent;
+    border-radius: 5px;
+    opacity: 1;
+}
+a:hover{
+    opacity: 0.01 !important;
+    background-color: blueviolet !important;
+    color: rgb(255, 255, 255) !important;
+}

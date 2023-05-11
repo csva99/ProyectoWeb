@@ -1,73 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="QuienesSomos.css">
-    <title>PetAccesories</title>
-    <script src="https://kit.fontawesome.com/9506ba593f.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <a href="#" class="Logo">
-            <img src="Logo/casa-de-mascotas.png" alt="Logo de la compañia">
-            <h2 class="NombrePagina"> PetAccesories</h2>
-        </a>
-        <nav>
-            <a href="" class="link">Inicio</a>
-            <a href="" class="link">Contacto</a>
-            <a href="" class="link">Productos</a>
-        </nav>
-    </header>
 
-    <div class="nosotros">
-        <div class="contenedor">
-            <div class="titulo">
-                <h1>Sobre Nosotros</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/9506ba593f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./static/css/QuienesSomos.css">
+  <title>Quienes Somos | PetAccesories</title>
+</head>
+
+<body>
+
+  <!-- Barra de navegacion -->
+
+  <div class="container-fluid">
+    <nav id="barra-nav" class="navbar navbar-expand-lg navbar-dark bg-black row role">
+      <div class="navbar-brand col-4 nav justify-content-start" id="Logo-head">
+        <a href="Main.html" class="Logo"><img src="Imagenes/Logo_barra.png" alt="Logo" width="60" height="60" /></a>
+        <a class="navbar-brand" id="Accesories" href="Main.html"><span id="Pet">Pet</span>Accessories</a>
+      </div>
+      <div class="collapse navbar-collapse col-4">
+        <a class="nav-link" href="Productos.html">Productos</a>
+        <a class="nav-link" href="QuienesSomos.html">Quienes Somos</a>
+        <a class="nav-link" href="Contactanos.html">Contáctanos</a>
+        <a class="nav-link" href="#">Seguimiento de tu pedido</a>
+        <a href=""><img src="Imagenes/Carrito.png" alt="Carrito" height="40px" width="40px" /></a>
+      </div>
+
+      <div class="col-3">
+        <ul class="navbar-nav nav justify-content-end">
+          <li class="nav-item">
+            <a href=""><img src="https://icon-library.com/images/profile-icon-white/profile-icon-white-6.jpg" alt=""
+                height="30px" width="30px" class="logo-persona" /></a>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Cuerpo de la web -->
+
+  <div class="Nosotros">
+    <div class="contenedor">
+      <div class="titulo">
+        <h1>Sobre Nosotros</h1>
+      </div>
+      <div class="contenido">
+        <div class="texto"></div>
+        <h2>Nuestra Historia</h2>
+        <p>Un grupo de amigas comenzó a realizar la venta de productos para mascotas como bandanas, correas e
+          identificadores, todo esto para ayudar a una fundación sin fines de lucro, decidimos partir a través de las
+          redes sociales, pero en la actualidad es casi imposible dar a basto a la demanda a través de las redes
+          sociales. Es por eso que les brindamos esta página con el fin de que puedan darle un gusto a su peludo, o
+          mejor aún, que tengan la oportunidad de que puedan adoptar uno para sus hogares y así poder darles el amor y
+          cuidado que tanto anhelan de una familia.</p>
+
+        <div class="boton">
+          <a href="#" type="button">Leer Más</a>
+        </div>
+      </div>
+
+      <div class="imagen">
+        <img src="Imagenes/ONG perros.png">
+      </div>
+    </div>
+
+
+    <div class="container-footer">
+      <footer class="bg-default text-light py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Contacto</h4>
+              <p>
+                Dirección: Av PetCity 6876<br />
+                Ciudad: Santiago, Chile<br />
+                Teléfono: (+56)954234678<br />
+                Correo electrónico: PetAccessories@contacto.cl
+              </p>
             </div>
-            <div class="contenido">
-                <div class="Articulo">
-                    <h3>Nuestra Historia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi cupiditate, possimus commodi ducimus vitae accusamus at omnis vel quod, animi ea obcaecati quae impedit esse perspiciatis dolorem earum qui culpa?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti pariatur voluptatem itaque, illo id molestiae dolores! Dolorum saepe officia animi ut, atque minima repellat reprehenderit consectetur deserunt magni cum enim.
-                        </p>
-                        <div class="boton">
-                            <a href="">Leer más</a>
-                        </div>
+            <div class="col-md-4">
+              <h4>Enlaces de interés</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Registro</a></li>
+                <li><a href="#">Iniciar sesión</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Síguenos en redes sociales:</h4>
+              <div class="box">
+                <div class="redSocial">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
                 </div>
+              </div>
             </div>
-            <div class="imagen">
-            <img src="img/perritos.gif">
-            </div>
+          </div>
         </div>
     </div>
 
-    <footer class="piepagina">
-        <div class="g1">
-            <div class="box">
-                <figure>
-                    <a href="#"><img src="img/casa-de-mascotas.png" alt="Logo petAccesories"></a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>Algo aca</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, eligendi.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, reprehenderit.</p>
-            </div>
-            <div class="box">
-                <h2>Siguenos</h2>
-                <div class="redSocial">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                </div>
-            </div>
-        </div>
-        <div class="g2">
-            <small>&copy; 2023 <b>PetAccesories</b> - Todos los Derechos Reservados.</small>
-        </div>
-
+    <div class="Derechos">
+      <small>&copy; 2023 &nbsp <b>PetAccesories</b> &nbsp Todos los Derechos Reservados.</small>
+    </div>
     </footer>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
