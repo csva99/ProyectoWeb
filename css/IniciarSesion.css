@@ -1,0 +1,68 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+    background-image: url(Imagenes/fondologin.png);
+}
+
+
+.box-area {
+    width: 930px;
+}
+
+
+.right-box {
+    padding: 40px 30px 40px 40px;
+}
+
+
+::placeholder {
+    font-size: 15px;
+}
+
+
+.rounded-4 {
+    border-radius: 20px;
+}
+
+
+.rounded-5 {
+    border-radius: 30px;
+}
+
+.col-md-6 .img-fluid {
+    width: 350px;
+    border-radius: 15px;
+}
+
+
+
+/*------------Diseño Responsivo------------*/
+
+@media only screen and (max-width: 768px) {
+
+    .box-area {
+        margin: 0 10px;
+
+    }
+
+    .left-box {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .right-box {
+        padding: 20px;
+    }
+
+    .text-white {
+        visibility: hidden;
+
+    }
+
+    .col-md-6 .img-fluid {
+        width: 180px;
+        height: 90px;
+        margin-top: 88px
+    }
+
+}

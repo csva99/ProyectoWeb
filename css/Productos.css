@@ -1,0 +1,368 @@
+/* HEAD */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0;
+    background-image: radial-gradient(circle at 85.98% 14.02%, #002f3a 0, #002f3d 6.25%, #002e3f 12.5%, #002e41 18.75%, #002d43 25%, #002c44 31.25%, #002b45 37.5%, #0b2a45 43.75%, #142945 50%, #1b2844 56.25%, #222743 62.5%, #272542 68.75%, #2c2440 75%, #31223e 81.25%, #35213c 87.5%, #382039 93.75%, #3b1f36 100%);
+    padding: 15px;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around !important;
+  }
+  
+  .nav-izq {
+    display: flex;
+    justify-content: baseline;
+    justify-self: flex-start !important;
+  }
+  
+  .nav-link{
+    color: whitesmoke;
+  }
+  
+  .nav-der {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  
+  #Nombrebarra {
+    color: rgb(129, 98, 61);
+    margin-left: 0%;
+  }
+  
+  #Pet {
+    color: #5B4C65 ;
+  
+  }
+  
+  .d-block{
+    height: auto !important;
+    width: 100% !important;
+  }
+
+
+  @media (max-width: 768px) {
+  
+    .navbar {
+      display: flex;
+      gap: 2px;
+      align-items: center;
+    }
+  
+    .logo-head {
+      order: 0;
+    }
+  
+    .boton-barras {
+      display: flex;
+      background-color:black;
+      padding: 15px;
+      align-items: center;
+      justify-self: center;
+      order: 3;
+      }
+  
+      .nav-link{
+        display: block !important;
+      }
+  
+    .navbar-toggler {
+      display: flex;
+      justify-self: end;
+      margin-right: 0;
+      order: 0;
+      width: 60px;
+      opacity: 0.5;
+    }
+  
+    .navbar-toggler-icon{
+      background-color: white;
+      color: white !important;
+    }
+  
+    .nav-izq{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nav-der{
+      display: flex;
+      justify-content: space-around;
+      background-color: #99ca9d;
+      margin-right: -50px;
+    }
+  
+    .inner1{
+      padding: 20px;
+      height: auto;
+      display: flex;
+      align-items: center;
+    }
+  
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+  }
+
+
+
+  /*BODY*/
+
+  .blog-container-cover{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 80px;
+    background-image: url(Imagenes/Portada-Productos.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog-container-cover:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 81, 235, 0.76);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-info-cover{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container-info-cover h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-info-cover p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*Contenedor de categorias*/
+
+input[type="radio"]{
+    display: none;
+}
+
+.container-category{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.container-category label{
+    padding: 6px 40px;
+    margin: 10px;
+    font-size: 20px;
+    background: #e2e2e2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-category label:hover{
+    opacity: 0.8;
+}
+
+
+
+/*Post - Publicaciones*/
+
+.container-Productos{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Productos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.Productos .producto{
+    background: #fff;
+    box-shadow: 0 0 20px -20px black;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.producto .ctn-img{
+    width: 100%;
+}
+
+.producto .ctn-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.producto h2{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+.producto span{
+    display: block;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+.ctn-tag{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.ctn-tag li{
+    list-style: none;
+    font-size: 14px;
+    margin: 4px;
+    padding: 6px 10px;
+    background: #e8e8e8;
+    cursor: default;
+}
+
+
+.producto button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #46a2fd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.producto button:hover{
+    opacity: 0.9;
+}
+
+
+/*sistema de filtrado*/
+
+[value="TODOS"]:checked ~ .Productos .producto[data-category]{
+    display: block;
+}
+
+[value="PERROS"]:checked ~ .Productos .producto:not([data-category~="PERROS"]),
+[value="GATOS"]:checked ~ .Productos .producto:not([data-category~="GATOS"]),
+[value="CORREAS"]:checked ~ .Productos .producto:not([data-category~="CORREAS"]),
+[value="BANDANAS"]:checked ~ .Productos .producto:not([data-category~="BANDANAS"]),
+[value="IDENTIFICADORES"]:checked ~ .Productos .producto:not([data-category~="IDENTIFICADORES"]){
+    display: none;
+}
+
+[value="TODOS"]:checked ~ .container-category [for="TODOS"],
+[value="PERROS"]:checked ~ .container-category [for="PERROS"],
+[value="GATOS"]:checked ~ .container-category [for="GATOS"],
+[value="CORREAS"]:checked ~ .container-category [for="CORREAS"],
+[value="BANDANAS"]:checked ~ .container-category [for="BANDANAS"],
+[value="IDENTIFICADORES"]:checked ~ .container-category [for="IDENTIFICADORES"]{
+    background: #46a2fd;
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px){
+    .Productos{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px){
+    .Productos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 580px){
+    .Productos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* Footer */
+.container-footer{
+  background-color: #31223e;
+}
+
+.container-footer p{
+  color: gray;
+}
+
+.container-footer a{
+  text-decoration: none;
+  color: gray;
+  margin-top: 10px;
+}
+
+.container-footer h4{
+  color: white;
+}
+
+
+.container-footer a:hover{
+  color: white;
+  transition: 0.2s;
+}
+
+
+.container-footer .box .redSocial a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 10px;
+  background-color: #5B4C65;
+  text-align: center;
+  transition: all 300ms ease;
+  border-radius: 8px;
+}
+
+
+.Derechos small{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}

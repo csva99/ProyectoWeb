@@ -1,0 +1,33 @@
+html,
+body {
+  background-image: url(https://a-static.besthdwallpaper.com/sea-full-moon-scenery-wallpaper-2560x2048-106532_33.jpg);
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.form {
+  gap: 9px;
+  backdrop-filter: blur(15px); 
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px) !important; 
+}
+
+#formulario {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
