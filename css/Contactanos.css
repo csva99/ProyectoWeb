@@ -75,50 +75,53 @@ body {
 }
 
 
-.container-footer {
-    background-color: black;
-}
+/* FOOTER */
 
-.container-footer p {
+.container-footer{
+    background-color: #31223e;
+  }
+  
+  .container-footer p{
     color: gray;
-}
-
-.container-footer a {
+  }
+  
+  .container-footer a{
     text-decoration: none;
     color: gray;
     margin-top: 10px;
-}
-
-.container-footer h4 {
+  }
+  
+  .container-footer h4{
     color: white;
-}
-
-
-.container-footer a:hover {
+  }
+  
+  
+  .container-footer a:hover{
     color: white;
     transition: 0.2s;
-}
-
-
-.container-footer .box .redSocial a {
+  }
+  
+  
+  .container-footer .box .redSocial a{
     display: inline-block;
     text-decoration: none;
     width: 45px;
     height: 45px;
     line-height: 45px;
     margin-right: 10px;
-    background-color: navajowhite;
+    background-color: #5B4C65;
     text-align: center;
     transition: all 300ms ease;
     border-radius: 8px;
-}
-
-.Derechos small {
+  }
+  
+  
+  .Derechos small{
     font-size: 15px;
     display: flex;
     justify-content: center;
     background-color: white;
-}
+  }
 
 
 

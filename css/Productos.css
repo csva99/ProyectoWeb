@@ -123,7 +123,7 @@
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(Imagenes/Portada-Productos.jpeg);
+    background-image: url(/imagenes/Portada-Productos.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@
     font-weight: 300;
 }
 
-/*Contenedor de categorias*/
+/* CATEGORIAS */
 
 input[type="radio"]{
     display: none;
@@ -195,7 +195,7 @@ input[type="radio"]{
 
 
 
-/*Post - Publicaciones*/
+/* PRODUCTOS */
 
 .container-Productos{
     max-width: 1200px;
@@ -277,7 +277,7 @@ input[type="radio"]{
 }
 
 
-/*sistema de filtrado*/
+/* SISTEMA DE FILTRADO */
 
 [value="TODOS"]:checked ~ .Productos .producto[data-category]{
     display: block;
@@ -320,7 +320,7 @@ input[type="radio"]{
 }
 
 
-/* Footer */
+/* FOOTER */
 .container-footer{
   background-color: #31223e;
 }

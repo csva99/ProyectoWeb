@@ -1,49 +1,57 @@
+/* HEAD */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0;
+    background-image: radial-gradient(circle at 85.98% 14.02%, #002f3a 0, #002f3d 6.25%, #002e3f 12.5%, #002e41 18.75%, #002d43 25%, #002c44 31.25%, #002b45 37.5%, #0b2a45 43.75%, #142945 50%, #1b2844 56.25%, #222743 62.5%, #272542 68.75%, #2c2440 75%, #31223e 81.25%, #35213c 87.5%, #382039 93.75%, #3b1f36 100%);
+    padding: 15px;
+}
+  
+.navbar-collapse {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around !important;
+}
+  
+.nav-izq {
+    display: flex;
+    justify-content: baseline;
+    justify-self: flex-start !important;
+}
+  
+.nav-link{
+    color: whitesmoke;
+}
+  
+.nav-der {
+    display: flex;
+    align-items: baseline;
+}
+  
+  
+#Nombrebarra {
+    color: rgb(129, 98, 61);
+    margin-left: 0%;
+}
+  
+#Pet {
+    color: #5B4C65 ;
+  
+}
+  
+.d-block{
+    height: auto !important;
+    width: 100% !important;
+}
+
+
+/* BODY */
+
 body {
     background-image: url(https://s1.1zoom.me/big7/960/Cats_Back_view_Grass_Bokeh_Ginger_color_575152_1920x1080.jpg);
     margin: 0;
 }
-
-#Accesories {
-    color: white;
-    padding-left: 5px;
-    margin-top: 10px;
-}
-
-#Pet {
-    color: orange;
-}
-
-.navbar {
-    margin-bottom: 0;
-    color: white
-}
-
-
-.nav-link {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    font-size: 600;
-    position: relative;
-}
-
-.nav-link:after {
-    content: "";
-    width: 0;
-    height: 4px;
-    background-color: royalblue;
-    position: absolute;
-    bottom: 0;
-    right: 50%;
-    transition: all .5s;
-    will-change: width;
-}
-
-.nav-link:hover:after {
-    width: 100%;
-    right: 0;
-}
-
 
 .Nosotros {
     width: 80%;
@@ -169,57 +177,53 @@ body {
 
 
 
-.container-footer {
-    background-color: black;
-    width: 80%;
-    position: absolute;
-    bottom: 0;
-}
+/* FOOTER */
 
-.container-footer p {
+.container-footer{
+    background-color: #31223e;
+  }
+  
+  .container-footer p{
     color: gray;
-}
-
-.container-footer a {
+  }
+  
+  .container-footer a{
     text-decoration: none;
     color: gray;
     margin-top: 10px;
-}
-
-.container-footer h4 {
+  }
+  
+  .container-footer h4{
     color: white;
-}
-
-
-.container-footer a:hover {
+  }
+  
+  
+  .container-footer a:hover{
     color: white;
     transition: 0.2s;
-}
-
-
-.container-footer .box .redSocial a {
+  }
+  
+  
+  .container-footer .box .redSocial a{
     display: inline-block;
     text-decoration: none;
     width: 45px;
     height: 45px;
     line-height: 45px;
     margin-right: 10px;
-    background-color: navajowhite;
+    background-color: #5B4C65;
     text-align: center;
     transition: all 300ms ease;
     border-radius: 8px;
-}
-
-
-.Derechos small {
-    width: 80%;
-    position: absolute;
-    bottom: 0;
+  }
+  
+  
+  .Derechos small{
     font-size: 15px;
     display: flex;
     justify-content: center;
     background-color: white;
-}
+  }
 
 
 @media (max-width:700px) {
