@@ -115,8 +115,11 @@ body{
 
 .card-wrapper{
   display: flex;
-  
   align-items: center;
+}
+
+.card p{
+    text-align: center;
 }
 
 .card {
@@ -134,7 +137,7 @@ body{
 
 
 .card-img-top {
-  height: 250px;
+  height: 300px;
 }
 
 .btn-productos-next{
