@@ -61,6 +61,7 @@ body {
     top: 15%;
     left: 58%;
     right: 10%;
+    float: right;
 }
 
 .ml-2 {
